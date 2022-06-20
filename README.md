@@ -35,7 +35,7 @@ If you want to know how many samples there are for each CSV of the dataset, you 
 
 ## 4. Code Structure of repository
 
-- `FedML`: a repository where you can find the necessary scripts of the FedML python framework required for the operation of the architecture.
+- `FedML` and `FedML-IoT`: a repository where you can find the necessary scripts of the FedML python framework required for the operation of the architecture.
 
 - `data`: provide data downloading scripts `sh download.sh` and store the downloaded datasets. It is necessary to unzip the compressed folders of the attacks.
 
