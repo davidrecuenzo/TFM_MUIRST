@@ -64,7 +64,7 @@ In Federated client:
 
 ```bash
 conda activate tfm
-python3 main_uci_rp_**.py --server_ip http://<server_ip>:5000 --client_uuid <uuid_of_client>
+python3 main_uci_rp_*.py --server_ip http://<server_ip>:5000 --client_uuid <uuid_of_client>
 ```
 
 ## 6. Results
