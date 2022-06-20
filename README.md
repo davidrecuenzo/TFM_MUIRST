@@ -51,7 +51,7 @@ If you want to know how many samples there are for each CSV of the dataset, you 
 1. It is the code designed for the implementation on the Raspberry Pi 4B.
 2. It contains two blocks, `main_uci_rp_*.py` should be implemented on the edge device and `app_*.py` should be implemented on the server.
 
-## 6. Run the repository
+## 5. Run the repository
 
 In Federated Server, you must run to train model:
 
@@ -67,6 +67,6 @@ conda activate tfm
 python3 main_uci_rp_**.py --server_ip http://<server_ip>:5000 --client_uuid <uuid_of_client>
 ```
 
-## 5. Results
+## 6. Results
 
 Use the `fl_test_*` to evaluate the performance. You must run `python3 fl_test_*.sh` under `experiments/distributed`
